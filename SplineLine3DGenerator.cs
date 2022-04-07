@@ -29,10 +29,10 @@
             get;
             private set;
         }
-        public TubeRenderer() {
+        public SplineLine3DGenerator() {
 
         }
-        public TubeRenderer(int sides, float radiusOne,float radiusTwo,bool useTwoRadii) {
+        public SplineLine3DGenerator(int sides, float radiusOne,float radiusTwo,bool useTwoRadii) {
             _radiusOne = radiusOne;
             _radiusTwo=radiusTwo;
             _useTwoRadii = useTwoRadii;
